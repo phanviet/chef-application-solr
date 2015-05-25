@@ -1,0 +1,8 @@
+production:
+  solr:
+    hostname: <%= node[:app][:solr][:host] %>
+    port: <%= node[:app][:solr][:port] %>
+    log_level: WARNING
+    path: <%= node[:app][:solr][:path] %>
+    user: <%= node[:app][:solr][:user] %>
+    password: <%= node[:app][:solr][:password] %>
